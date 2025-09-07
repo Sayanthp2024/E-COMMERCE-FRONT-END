@@ -57,6 +57,29 @@
       background: #04eb04;
       color: #000;
     }
+    .form-actions {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    input, select {
+      background: #222;
+      color: #fff;
+      border: 1px solid #04eb04;
+      transition: border-color 0.2s;
+    }
+    input:focus, select:focus {
+      border-color: #fff;
+      outline: none;
+    }
+    button {
+      flex: 1;
+      background: #04eb04;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+    }
   </style>
 </head>
 <body>
